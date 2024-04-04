@@ -23,7 +23,7 @@ require_once __DIR__.'/vendor/autoload.php';
 define("DEFAULTGF_FILE",__FILE__);
 define("DEFAULTGF_PATH",__DIR__);
 define("DEFAULTGF_TEMPLATE_PATH",DEFAULTGF_PATH.'/templates/');
-class defaultGFv2
+class GravityDefaultFormSettings
 {
 	function __construct() {
 		new AjaxSaveDefaultConfirmation();
@@ -178,4 +178,4 @@ class defaultGFv2
 		return $confirmation;
 	}
 }
-new defaultGFv2();
+new GravityDefaultFormSettings();

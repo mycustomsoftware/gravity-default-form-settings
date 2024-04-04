@@ -3,7 +3,6 @@
 use GravityDefaults\DefaultConfirmationControl;
 use GravityDefaults\DefaultFieldsControl;
 use GravityDefaults\DefaultNotificationsControl;
-use function GravityDefaults\get_default_confirmation;
 
 wp_enqueue_script('wplink');
 wp_enqueue_script('wpdialogs');

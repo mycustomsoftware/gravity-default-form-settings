@@ -1,0 +1,20 @@
+<li class="df-confirmation">
+    <div class="header">
+        <h4 class="name">Confirmation <small style="font-size:10px;">(type: {{redirect_label}})</small></h4>
+        <div class="actions">
+            <a href="#" class="edit"><i class="dashicons dashicons-edit"></i></a>
+        </div>
+    </div>
+    <div class="df-confirmation-editor">
+            <label>
+                <span class="label">Redirect to</span>
+                <input type="text" name="confirmation[to]" value="{{to}}" placeholder="Redirect to">
+                <input type="text" name="confirmation[type]" value="{{type}}" placeholder="type">
+            </label>
+            <label>
+                <span class="label">Message</span>
+                <textarea name="confirmation[message]" placeholder="Message" rows="5" cols="50" style="width: 100%">{{message}}</textarea>
+            </label>
+        <input type="hidden" name="confirmation[redirect]" value="{{redirect}}">
+    </div>
+</li>

@@ -1,0 +1,19 @@
+{
+  "name": "marcuscode/gravityrecoverfees",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "marktanasevich"
+    }
+  ],
+  "require": {
+      "php": "^7.4.0|^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "GravityDefaults\\": "classes/"
+    }
+  }
+}

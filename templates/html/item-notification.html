@@ -1,0 +1,39 @@
+<li class="df-notification">
+    <div class="header">
+        <h4 class="name">{{name}} <small style="font-size:10px;">(type: {{ntype}})</small></h4>
+        <div class="actions">
+            <a href="#" class="delete"><i class="dashicons dashicons-trash"></i></a>
+            <a href="#" class="edit"><i class="dashicons dashicons-edit"></i></a>
+        </div>
+    </div>
+    <div class="df-notification-editor">
+            <label>
+                <span class="label">Notification type {{ntype}}</span>
+            </label>
+            <label>
+                <span class="label">Name</span>
+                <input type="text" name="notifications[{{ind}}][name]" value="{{name}}" placeholder="Name">
+            </label>
+            <label>
+                <span class="label">E-mail to</span>
+                <input type="text" name="notifications[{{ind}}][to]" value="{{to}}" placeholder="E-mail to">
+            </label>
+            <label>
+                <span class="label">E-mail from</span>
+                <input type="text" name="notifications[{{ind}}][from]" value="{{from}}" placeholder="E-mail from">
+            </label>
+            <label>
+                <span class="label">Reply to</span>
+                <input type="text" name="notifications[{{ind}}][replyto]" value="{{replyto}}" placeholder="Reply to">
+            </label>
+            <label>
+                <span class="label">Subject</span>
+                <input type="text" name="notifications[{{ind}}][subject]" value="{{subject}}" placeholder="Subject">
+            </label>
+            <label>
+                <span class="label">Message</span>
+                <textarea name="notifications[{{ind}}][message]" placeholder="Message" rows="5" cols="50" style="width: 100%">{{message}}</textarea>
+            </label>
+        <input type="hidden" name="notifications[{{ind}}][ntype]" value="{{ntype}}">
+    </div>
+</li>

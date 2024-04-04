@@ -1,0 +1,47 @@
+<li data-item>
+	<div class="header-control-wrapper">
+		<div class="header-control">
+			<a href="#" class="header-control" data-draggable-header="true">
+                    <span class="gfield-field-action gfield-drag ui-draggable-handle">
+                        <i class="gform-icon gform-icon--drag-indicator"></i>
+                    </span>
+			</a>
+		</div>
+		<div class="field-icon">{{icontag}}</div>
+		<div class="field-title">
+			{{label}}
+		</div>
+		<div class="actions-wrapper">
+			<a href="#" class="moreoptions">
+				<span class="gform-icon gform-icon--ellipsis gform-button__icon"></span>
+			</a>
+			<div class="dropdown-actions-wrapper">
+				<ul class="dropdown-actions">
+					<li>
+						<a href="#" data-edit-item class="dropdown-action">Edit</a>
+					</li>
+					<li>
+						<a href="#" data-remove-item class="dropdown-action">Delete</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="field-control-wrapper" data-editable-content>
+		<div class="fields-actions">
+			<a href="#" class="action-btn" data-cancel-item>
+				<svg style="width: 20px; height: 20px" viewBox="0 0 24 24" fill="#5f6368"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path><path fill="none" d="M0 0h24v24H0z"></path></svg>
+			</a>
+		</div>
+		<div class="field-control">
+			<input type="hidden" name="icon[]" value="{{icon}}">
+			<input type="text" name="label[]" value="{{label}}" placeholder="Label">
+			<input type="text" name="defaultvalue[]" value="{{defaultvalue}}" placeholder="Default value">
+			<input type="hidden" name="type[]" value="{{type}}"/>
+		</div>
+		<div class="fields-actions">
+			<a href="#" class="action-btn" data-save-item><span>Save</span>
+			</a>
+		</div>
+	</div>
+</li>

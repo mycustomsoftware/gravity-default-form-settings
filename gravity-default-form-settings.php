@@ -4,7 +4,7 @@
  * Plugin URI: https://wordpress.org/plugins/gravity-default-form-settings
  * Description: Gravity default form settings for Gravity Forms that allows you to set default confirmation, notifications, and fields.
  * Version: 1.0.0
- * Author:      My Custom Software
+ * Author: My Custom Software
  * Author URI: https://github.com/mycustomsoftware
  *  License: GPL3
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
